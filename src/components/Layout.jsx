@@ -46,7 +46,7 @@ export default function Layout({ children }) {
             {/* Avatar */}
             <div className="w-20 h-20 rounded-full border-2 border-white/25 mb-4 overflow-hidden bg-white/15">
               <img
-                src="/profile.jpg"
+                src={`${import.meta.env.BASE_URL}profile.jpg`}
                 alt="Dr Lester Thomas"
                 className="w-full h-full object-cover"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex'; }}
