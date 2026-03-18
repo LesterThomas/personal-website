@@ -47,7 +47,7 @@ export default function Layout({ children }) {
             <div className="w-20 h-20 rounded-full border-2 border-white/25 mb-4 overflow-hidden bg-white/15">
               <img
                 src="/profile.jpg"
-                alt="Lester Thomas"
+                alt="Dr Lester Thomas"
                 className="w-full h-full object-cover"
                 onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex'; }}
               />
@@ -55,7 +55,7 @@ export default function Layout({ children }) {
             </div>
 
             <h1 className="text-2xl font-bold text-white mb-2 tracking-tight">
-              Lester Thomas
+              Dr Lester Thomas
             </h1>
 
             <p className="text-white/65 text-sm leading-relaxed max-w-sm">
@@ -84,7 +84,7 @@ export default function Layout({ children }) {
       <footer className="border-t border-gray-100 mt-12">
         <div className="max-w-3xl mx-auto px-4 py-6">
           <p className="text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} Lester Thomas · Head of New Technologies and Innovation, Vodafone Digital & IT
+            © {new Date().getFullYear()} Dr Lester Thomas · Head of New Technologies and Innovation, Vodafone Digital & IT
           </p>
         </div>
       </footer>
