@@ -10,7 +10,7 @@ export default function AboutPage() {
       <div className="bg-white rounded-lg border border-gray-200 shadow-sm p-8 mb-8">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">About Me</h1>
         <p className="text-xl text-gray-600 leading-relaxed">
-          Chief IT Systems Architect at Vodafone, technology enthusiast, and father of 3
+          Head of New Technologies and Innovation, Vodafone Digital & IT — technology enthusiast and father of 3
         </p>
       </div>
 
@@ -22,7 +22,7 @@ export default function AboutPage() {
         </div>
         <div className="space-y-4 text-gray-700 leading-relaxed">
           <p>
-            As Chief IT Systems Architect at Vodafone, I focus on designing and implementing 
+            As Head of New Technologies and Innovation at Vodafone Digital & IT, I focus on designing and implementing 
             cutting-edge technology solutions that drive innovation and business transformation 
             in the telecommunications industry.
           </p>

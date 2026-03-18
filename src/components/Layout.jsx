@@ -53,7 +53,7 @@ export default function Layout({ children }) {
             </h1>
 
             <p className="text-white/65 text-sm leading-relaxed max-w-sm">
-              Dad to 3 lovely kids, tech geek, Chief IT Systems Architect at Vodafone.
+              Dad to 3 lovely kids, tech geek, Head of New Technologies and Innovation, Vodafone Digital &amp; IT.
               Loves eco-friendly tech, robots, Microlights, drones, open-source&hellip;
             </p>
 
@@ -78,7 +78,7 @@ export default function Layout({ children }) {
       <footer className="border-t border-gray-100 mt-12">
         <div className="max-w-3xl mx-auto px-4 py-6">
           <p className="text-center text-gray-400 text-sm">
-            © {new Date().getFullYear()} Lester Thomas · Chief IT Systems Architect at Vodafone
+            © {new Date().getFullYear()} Lester Thomas · Head of New Technologies and Innovation, Vodafone Digital & IT
           </p>
         </div>
       </footer>
