@@ -54,8 +54,8 @@ export default function AboutPage() {
             <h3 className="font-semibold text-gray-900 mb-2">Industry Focus</h3>
             <ul className="space-y-2 text-gray-700">
               <li>• Telecommunications</li>
-              <li>• Enterprise IT Systems</li>
-              <li>• API Standards (TM Forum)</li>
+              <li>• Open standards for interoperability</li>
+              <li>• TM Forum Open Digital Architecture</li>
               <li>• Innovation & R&D</li>
             </ul>
           </div>

@@ -44,8 +44,14 @@ export default function Layout({ children }) {
           {/* Centered profile */}
           <div className="flex flex-col items-center text-center pt-4 pb-10">
             {/* Avatar */}
-            <div className="w-20 h-20 rounded-full bg-white/15 border-2 border-white/25 flex items-center justify-center mb-4 overflow-hidden">
-              <span className="text-2xl font-bold text-white/90 select-none tracking-tight">LT</span>
+            <div className="w-20 h-20 rounded-full border-2 border-white/25 mb-4 overflow-hidden bg-white/15">
+              <img
+                src="/profile.jpg"
+                alt="Lester Thomas"
+                className="w-full h-full object-cover"
+                onError={(e) => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex'; }}
+              />
+              <span className="w-full h-full text-2xl font-bold text-white/90 select-none tracking-tight items-center justify-center hidden" style={{display:'none'}}>LT</span>
             </div>
 
             <h1 className="text-2xl font-bold text-white mb-2 tracking-tight">
