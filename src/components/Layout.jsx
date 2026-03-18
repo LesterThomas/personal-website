@@ -31,7 +31,7 @@ export default function Layout({ children }) {
               <Twitter className="w-4 h-4" />
             </a>
             <a
-              href="https://www.linkedin.com/in/lesterthomas/"
+              href="https://www.linkedin.com/in/lester-thomas/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/50 hover:text-white/90 transition-colors"
