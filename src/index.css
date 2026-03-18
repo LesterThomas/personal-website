@@ -1,12 +1,10 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-/* Tailwind v4: define custom theme tokens */
+/* Custom theme tokens — extends the Tailwind v4 default theme */
 @theme {
-  --color-accent: #aa3bff;
-  --color-hero: #6b7389;
-  --font-sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --color-accent: #0d9488;
+  --color-hero: #1e3a5f;
+  --font-sans: 'IBM Plex Sans', system-ui, sans-serif;
 
   /* Restore named max-width scale (removed in Tailwind v4 default theme) */
   --max-width-xs:  20rem;   /* 320px */
@@ -30,7 +28,7 @@
 
   body {
     margin: 0;
-    font-family: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #374151;

@@ -1,10 +1,15 @@
 import yaml from 'js-yaml';
 
+let cachedContent = null;
+
 /**
- * Load all content YAML files and parse them into JavaScript objects
+ * Load all content YAML files and parse them into JavaScript objects.
+ * Results are cached in module scope to avoid re-fetching on navigation.
  * @returns {Promise<Array>} Array of content items sorted by date (newest first)
  */
 export async function loadAllContent() {
+  if (cachedContent) return cachedContent;
+
   // Import all YAML files from the data/content directory using Vite's glob import
   const contentModules = import.meta.glob('../data/content/*.yml', { 
     query: '?raw', 
@@ -39,6 +44,7 @@ export async function loadAllContent() {
     return b.date - a.date;
   });
 
+  cachedContent = contentItems;
   return contentItems;
 }
 
