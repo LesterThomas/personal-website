@@ -1,7 +1,7 @@
 import { Globe, ExternalLink } from 'lucide-react';
 
 /**
- * ContentCard - Authory-style list item with title, description, and metadata row
+ * ContentCard - list item with title, description, and metadata row
  */
 export default function ContentCard({ item }) {
   const { title, type, date, url, description, publication, event, source } = item;

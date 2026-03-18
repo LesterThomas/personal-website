@@ -1,7 +1,7 @@
 import { Search, ChevronDown } from 'lucide-react';
 
 /**
- * FilterBar - horizontal inline filter row matching Authory's design
+ * FilterBar - horizontal inline filter row
  */
 export default function FilterBar({
   searchQuery,

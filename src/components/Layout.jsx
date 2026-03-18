@@ -2,7 +2,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Twitter, Linkedin } from 'lucide-react';
 
 /**
- * Layout component - Authory-style hero header with profile + nav
+ * Layout component - hero header with profile + nav
  */
 export default function Layout({ children }) {
   const location = useLocation();
@@ -16,7 +16,7 @@ export default function Layout({ children }) {
 
   return (
     <div className="min-h-screen bg-white font-sans">
-      {/* Hero Header — dark slate background matching Authory */}
+      {/* Hero Header */}
       <header className="bg-hero text-white">
         <div className="max-w-3xl mx-auto px-6">
           {/* Social links top-right */}

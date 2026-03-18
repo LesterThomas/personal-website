@@ -17,7 +17,7 @@ function getSources(items) {
 }
 
 /**
- * HomePage - Authory-style single-column content list with inline filters
+ * HomePage - single-column content list with inline filters
  */
 export default function HomePage() {
   const [content, setContent] = useState([]);
