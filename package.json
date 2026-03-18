@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "scrape": "node scripts/scrape-authory.js",
-    "convert-json": "node scripts/convert-json-to-yaml.js"
+    "scrape-linkedin": "node scripts/scrape-linkedin.js"
   },
   "dependencies": {
     "js-yaml": "^4.1.1",

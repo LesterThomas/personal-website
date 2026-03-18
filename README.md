@@ -44,8 +44,7 @@ personal-website/
 │   ├── main.jsx           # App entry point
 │   └── index.css          # Global styles + Tailwind
 ├── scripts/
-│   ├── scrape-authory.js  # Playwright scraper for content extraction
-│   └── convert-json-to-yaml.js
+│   └── scrape-linkedin.js  # Playwright scraper for LinkedIn activity
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml     # GitHub Actions deployment workflow
@@ -101,15 +100,15 @@ npm run build
 
 Output will be in the `dist/` directory.
 
-### Extract Content from Authory
+### Scrape LinkedIn Activity
 
-If you need to re-scrape content from Authory.com:
+To pull in new posts from LinkedIn:
 
 ```bash
-npm run scrape
+npm run scrape-linkedin
 ```
 
-This runs the Playwright scraper to extract all content items and generate YAML files.
+This opens a visible browser — sign in to LinkedIn, and the script will extract original posts and write YAML files to `src/data/content/`.
 
 ## Deployment
 
@@ -167,7 +166,7 @@ theme: {
 
 ## Contact
 
-Lester Thomas  
-Chief IT Systems Architect at Vodafone  
-https://authory.com/lesterthomas
+Dr Lester Thomas  
+Head of New Technologies and Innovation, Vodafone Digital & IT  
+https://www.linkedin.com/in/lester-thomas/
 
