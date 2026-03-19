@@ -44,7 +44,7 @@ export default function Layout({ children }) {
           {/* Centered profile */}
           <div className="flex flex-col items-center text-center pt-4 pb-10">
             {/* Avatar */}
-            <div className="w-20 h-20 rounded-full border-2 border-white/25 mb-4 overflow-hidden bg-white/15">
+            <div className="w-30 h-30 rounded-full border-2 border-white/25 mb-4 overflow-hidden bg-white/15">
               <img
                 src={`${import.meta.env.BASE_URL}profile.jpg`}
                 alt="Dr Lester Thomas"
