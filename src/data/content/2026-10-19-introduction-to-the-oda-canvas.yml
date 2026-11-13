@@ -3,3 +3,4 @@ type: video
 date: 2026-10-19
 url: "https://www.youtube.com/watch?v=xLdFY9mGJxI"
 source: YouTube
+description: "The ODA Canvas is the execution platform for TM Forum Open Digital Architecture (ODA) Components, with an open-source reference implementation. This first video in the ODA Canvas training series explains why the Canvas exists, from TM Forum's frameworks and Open APIs to the ODA Component and Canvas standards. It covers what an ODA Component is and the services the Canvas provides to components, the business benefits of the approach, and a tour of the Canvas and its Portal: a component is deployed and its APIs, identity and observability are configured automatically. It finishes with which Canvas capabilities are available today, which are experimental and which are planned."
